@@ -392,8 +392,8 @@ html {
     margin-bottom: 0px;
 }
 
-.footer-item:hover,
-.footer-item:focus {
+.footer-link:hover,
+.footer-link:focus {
     color: var(--accent-color);
 }
 
