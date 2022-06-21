@@ -32,8 +32,6 @@ html {
 
     list-style-type: none;
     margin: 0;
-
-    outline: 2px solid red;
 }
 
 .list {
@@ -47,15 +45,12 @@ html {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    /* outline: 2px solid red; */
 }
 
 /* Page header */
 
 .page-header {
     border-bottom: 1px solid #ECECEC;
-    /* padding-top: 32px;
-    padding-bottom: 32px; */
 }
 
 /* Logo */
@@ -99,19 +94,6 @@ html {
     text-decoration: none;
 }
 
-/* .logo-header:hover .logo {
-    color: var(--secondaty-text-color);
-}
-
-.logo:hover {
-    color: var(--secondaty-text-color);
-}
-
-.logo-footer:hover .logo {
-    color: var(--secondaty-text-color);
-} */
-
-
 /* site-nav */
 .main-nav {
     display: flex;
@@ -125,8 +107,6 @@ html {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
-
-
 }
 
 .nav {
@@ -159,10 +139,6 @@ html {
     margin-left: 50px;
 }
 
-
-.site-nav .item,
-.site-cont .item {}
-
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
@@ -193,7 +169,6 @@ html {
 .hero {
     background-color: var(--secondary-bg-color);
 }
-
 
 .hero-title {
     font-weight: 900;
@@ -262,7 +237,6 @@ html {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
-
 
 
 /* Feature/Functions/Our team */
@@ -340,10 +314,7 @@ html {
 
 .team {
     justify-content: space-between;
-
     background-color: var(--accent-bg-color);
-
-
 }
 
 .team .item {
@@ -396,7 +367,6 @@ html {
 
 .footer-text {
     margin-bottom: 0;
-
 }
 
 .footer-text .adress {
@@ -418,18 +388,9 @@ html {
     text-decoration: none;
 }
 
-/* .tel {
-    margin-bottom: 0;
-} */
-
 .footer-item:last-child {
     margin-bottom: 0px;
 }
-
-/* .footer-item:not(:last-child) {
-    display: block;
-    margin-bottom: 9px;
-} */
 
 .footer-item:hover,
 .footer-item:focus {
