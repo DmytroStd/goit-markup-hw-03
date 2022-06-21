@@ -191,8 +191,6 @@ html {
 
 .hero {
     background-color: var(--secondary-bg-color);
-    /* padding-top: 200px;
-    padding-bottom: 200px; */
 }
 
 
@@ -414,7 +412,6 @@ html {
 /* Buttons */
 .box {
     list-style-type: none;
-    outline: 2px solid red;
 }
 
 .button {
@@ -441,8 +438,6 @@ html {
 
 .box-button {
     list-style-type: none;
-    /* delete later */
-    outline: 2px solid red;
 }
 
 .button-list {
@@ -466,10 +461,7 @@ html {
 }
 
 /* Projects */
-.box-projects {
-    /* delete later */
-    outline: 2px solid red;
-}
+.box-projects {}
 
 /* .works-pictures {
     margin-bottom: 20px;
