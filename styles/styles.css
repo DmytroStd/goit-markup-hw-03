@@ -77,6 +77,7 @@ html {
 }
 
 .logo-footer {
+    display: block;
     color: var(--logo-footer-color);
     margin-top: 0;
     margin-bottom: 20px;
@@ -222,6 +223,7 @@ html {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: 4px;
     background-color: var(--accent-color);
+    border-radius: 4px;
 
     font-weight: 700;
     font-size: 16px;
@@ -245,7 +247,9 @@ html {
 }
 
 /* Section */
-
+.hide-head {
+    display: none;
+}
 
 .section-title {
     margin-top: 0;
@@ -259,9 +263,7 @@ html {
     color: var(--primary-text-color);
 }
 
-.footer-text {
-    margin-bottom: 0;
-}
+
 
 /* Feature/Functions/Our team */
 .section {
@@ -270,7 +272,8 @@ html {
 }
 
 .feature {
-    margin-bottom: 94px;
+    /* padding-top: 94px;
+    padding-bottom: 94px; */
 }
 
 .feature,
@@ -331,6 +334,10 @@ html {
     text-transform: uppercase;
 }
 
+.section-respons {
+    padding-bottom: 94px;
+}
+
 .team {
     justify-content: space-between;
 
@@ -356,8 +363,7 @@ html {
 }
 
 .team-role {
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin: 0;
 
     font-size: 16px;
     line-height: 1.19;
@@ -368,18 +374,29 @@ html {
 
 .team-picture {
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 
+.team-conteiner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
 
 /* Footer */
 .footer {
     background-color: var(--secondary-bg-color);
 
     list-style-type: none;
-    margin: 0;
+    /* margin: 0; */
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+
+.footer-text {
+    margin-bottom: 0;
+
 }
 
 .footer-text .adress {
@@ -387,15 +404,32 @@ html {
 }
 
 .footer-item {
-    margin-top: 0;
     margin-bottom: 9px;
+}
+
+.footer-link {
+    display: block;
 
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
+
+/* .tel {
+    margin-bottom: 0;
+} */
+
+.footer-item:last-child {
+    margin-bottom: 0px;
+}
+
+/* .footer-item:not(:last-child) {
+    display: block;
+    margin-bottom: 9px;
+} */
 
 .footer-item:hover,
 .footer-item:focus {
@@ -419,6 +453,7 @@ html {
     cursor: pointer;
     border-radius: 4px;
     border: none;
+    list-style-type: none;
 
     font-weight: 500;
     font-size: 16px;
@@ -433,16 +468,16 @@ html {
 
 .filtr-btn {
     text-align: center;
-
+    margin-bottom: 50px;
 }
 
-.box-button {
+/* .box-button {
     list-style-type: none;
-}
+} */
 
 .button-list {
     display: inline-block;
-    margin-bottom: 50px;
+
 }
 
 .filtr-btn .button-list+.button-list {
